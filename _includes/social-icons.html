@@ -1,22 +1,21 @@
 {%- comment -%}
-  Inline-SVG social icons used in the site header and footer.
-  Sources: hand-traced from each brand's public mark, kept minimal so the file
-  stays small. Swap any href in _config.yml's `social:` block.
+  Inline-SVG social icons in brand colors. Sizes / colors are controlled in
+  assets/css/main.scss under `.social-icons`.
 {%- endcomment -%}
 <div class="social-icons">
-  <a href="{{ site.social.scholar }}" title="Google Scholar" aria-label="Google Scholar" rel="noopener" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0L0 9l4.5 3.4V18h15v-5.6L24 9 12 0zm0 2.3L21.6 9 12 16 2.4 9 12 2.3zM6 13l6 4.5L18 13v3.2c0 1-2.7 2.3-6 2.3s-6-1.3-6-2.3V13z"/></svg>
+  <a class="ic ic-scholar" href="{{ site.social.scholar }}" title="Google Scholar" aria-label="Google Scholar" rel="noopener" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
   </a>
-  <a href="{{ site.social.researchgate }}" title="ResearchGate" aria-label="ResearchGate" rel="noopener" target="_blank">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 0H4.4A4.4 4.4 0 000 4.4v15.2A4.4 4.4 0 004.4 24h15.2a4.4 4.4 0 004.4-4.4V4.4A4.4 4.4 0 0019.6 0zM8.1 17.7H6V8.4c.7-.1 1.7-.2 2.9-.2 1.5 0 2.5.3 3.2.9.6.5 1 1.3 1 2.2 0 1.6-1.2 2.6-2.4 3v.1c1 .3 1.6 1.1 1.9 2.3.4 1.4.7 2.6.9 3H11c-.2-.3-.5-1.2-.8-2.5-.3-1.4-1-2-2.1-2.1H8.1v4.6zm0-6h.9c1.1 0 2-.5 2-1.4 0-1-.7-1.4-1.9-1.4-.5 0-.8 0-1 .1v2.7zM18 16.5c-.6.2-1.7.5-3 .5-1.5 0-2.7-.4-3.6-1.3-.8-.8-1.3-2-1.3-3.5 0-2.9 2.1-4.7 5.1-4.7 1.1 0 2 .2 2.4.5l-.4 1.6c-.5-.2-1.1-.4-2-.4-2 0-3.3 1.2-3.3 3.2 0 2 1.3 3.2 3.1 3.2.7 0 1.2-.1 1.5-.2v-2.2h-1.9v-1.5H18v4.8z"/></svg>
+  <a class="ic ic-rg" href="{{ site.social.researchgate }}" title="ResearchGate" aria-label="ResearchGate" rel="noopener" target="_blank">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.586 0H4.414A4.414 4.414 0 000 4.414v15.172A4.414 4.414 0 004.414 24h15.172A4.414 4.414 0 0024 19.586V4.414A4.414 4.414 0 0019.586 0zM8.06 17.785H6V6.215c.78-.092 1.776-.184 3.029-.184 1.69 0 2.838.347 3.617 1.034.687.595 1.044 1.46 1.044 2.526 0 1.79-1.32 2.95-2.7 3.379v.06c1.11.357 1.79 1.318 2.139 2.683.475 1.856.825 3.149 1.135 3.668h-2.13c-.227-.397-.553-1.473-.953-3.087-.412-1.764-1.18-2.435-2.838-2.466h-1.283zm0-7.123v3.292h1.39c1.426 0 2.323-.825 2.323-2.034 0-1.346-.928-1.973-2.292-1.973-.674 0-1.18.06-1.42.115zm10.034 7.123c-1.05.342-3.05.794-5.057.794-2.654 0-4.643-.672-6.107-2.082-1.395-1.318-2.227-3.428-2.227-5.84 0-4.674 3.252-7.696 7.927-7.696 1.872 0 3.36.395 4.07.732l-.412 1.745c-.872-.396-1.96-.687-3.69-.687-3.504 0-5.79 2.142-5.79 5.84 0 3.668 2.158 5.81 5.553 5.81 1.215 0 2.05-.168 2.475-.382v-4.325h-2.925v-1.715h4.967v7.806z"/></svg>
   </a>
-  <a href="{{ site.social.linkedin }}" title="LinkedIn" aria-label="LinkedIn" rel="noopener" target="_blank">
+  <a class="ic ic-li" href="{{ site.social.linkedin }}" title="LinkedIn" aria-label="LinkedIn" rel="noopener" target="_blank">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
   </a>
-  <a href="{{ site.social.github }}" title="GitHub" aria-label="GitHub" rel="noopener" target="_blank">
+  <a class="ic ic-gh" href="{{ site.social.github }}" title="GitHub" aria-label="GitHub" rel="noopener" target="_blank">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 00-3.8 23.38c.6.12.83-.26.83-.58v-2.04c-3.34.72-4.04-1.61-4.04-1.61-.55-1.4-1.34-1.77-1.34-1.77-1.08-.74.08-.73.08-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 016 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .3"/></svg>
   </a>
-  <a href="{{ site.social.youtube }}" title="YouTube" aria-label="YouTube" rel="noopener" target="_blank">
+  <a class="ic ic-yt" href="{{ site.social.youtube }}" title="YouTube" aria-label="YouTube" rel="noopener" target="_blank">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 00.5 6.2 31.4 31.4 0 000 12a31.4 31.4 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.1A31.4 31.4 0 0024 12a31.4 31.4 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
   </a>
 </div>

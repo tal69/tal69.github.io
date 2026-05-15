@@ -1,0 +1,366 @@
+# -----------------------------------------------------------------------------
+# Publications data. Edit this file to add / update / reorder publications.
+# Fields:
+#   authors  — comma-separated author list (Markdown allowed)
+#   title    — paper title
+#   venue    — journal name
+#   year     — publication year (integer)
+#   pages    — volume/issue/pages string, e.g. "166 (2022) 348-373"
+#   url      — link to PDF or DOI (preferred)
+#   featured — set true for the items shown on the Home page
+#   extras   — list of {label, url} for datasets, preprints, code, etc.
+# -----------------------------------------------------------------------------
+
+journal:
+
+  - authors: "Ilan Estrugo, Yossi Bukchin, Tal Raviv"
+    title:   "DynoPath: a dynamic online grid-based centralized sorting algorithm"
+    venue:   "Transportation Science"
+    year:    2026
+    pages:   "(accepted Feb 2026)"
+    url:     "https://doi.org/10.1287/trsc.2025.0033"
+    featured: true
+    extras:
+      - { label: "preprint", url: "https://dx.doi.org/10.2139/ssrn.5082142" }
+
+  - authors: "Oksana Sabinik Pecherski, Tal Raviv, Hilel Bar-Gera"
+    title:   "Service design of shared first- and last-mile transit systems"
+    venue:   "Public Transport"
+    year:    2025
+    url:     "https://link.springer.com/article/10.1007/s12469-025-00404-y"
+
+  - authors: "Alaa Ghanaiem, Evgeny Kagan, Parteek Kumar, Tal Raviv, Peter Glynn, Irad Ben-Gal"
+    title:   "Unsupervised classification under uncertainty: the distance-based algorithm"
+    venue:   "Mathematics"
+    year:    2023
+    pages:   "11, 4784"
+    url:     "https://www.mdpi.com/2577452"
+
+  - authors: "Tal Raviv"
+    title:   "The service points' location and capacity problem"
+    venue:   "Transportation Research Part E"
+    year:    2023
+    pages:   "176, 103216"
+    url:     "https://doi.org/10.1016/j.tre.2023.103216"
+    featured: true
+
+  - authors: "Edison Avraham, Tal Raviv"
+    title:   "The data-driven time-dependent orienteering problem with soft time windows"
+    venue:   "EURO Journal of Transportation and Logistics"
+    year:    2023
+    pages:   "12, 100112"
+    url:     "https://doi.org/10.1016/j.ejtl.2023.100112"
+    extras:
+      - { label: "dataset", url: "/assets/pdf/f40624_24eb039488ef487f9d53f11bb24e9273.rar" }
+
+  - authors: "Shir Tavor, Tal Raviv"
+    title:   "Anticipatory rebalancing of RoboTaxi systems"
+    venue:   "Transportation Research Part C"
+    year:    2023
+    pages:   "153, 104196"
+    url:     "https://doi.org/10.1016/j.trc.2023.104196"
+    featured: true
+
+  - authors: "Yossi Bukchin, Tal Raviv"
+    title:   "A comprehensive toolbox for load retrieval in puzzle-based storage systems with simultaneous movements"
+    venue:   "Transportation Research Part B"
+    year:    2022
+    pages:   "166, 348-373"
+    url:     "https://doi.org/10.1016/j.trb.2022.11.002"
+    featured: true
+
+  - authors: "Tal Raviv, Yossi Bukchin, René de Koster"
+    title:   "Optimal retrieval in puzzle-based storage systems using automated mobile robots"
+    venue:   "Transportation Science"
+    year:    2023
+    pages:   "57:2, 424-443"
+    url:     "https://www.researchgate.net/publication/362240858"
+
+  - authors: "Ido Orenstein, Tal Raviv"
+    title:   "Parcel delivery using the hyperconnected service network"
+    venue:   "Transportation Research Part E"
+    year:    2022
+    pages:   "161, 102716"
+    url:     "https://doi.org/10.1016/j.tre.2022.102716"
+
+  - authors: "Mor Kaspi, Tal Raviv, Marlin Ulmer"
+    title:   "Directions for future research on urban mobility and city logistics"
+    venue:   "Networks"
+    year:    2022
+    pages:   "79:3, 253-263"
+    url:     "https://doi.org/10.1002/net.22092"
+
+  - authors: "Yifat Douek-Pinkovich, Irad Ben-Gal, Tal Raviv"
+    title:   "The stochastic test collection problem: models, exact, and heuristic solution approaches"
+    venue:   "European Journal of Operational Research"
+    year:    2022
+    pages:   "299, 945-959"
+    url:     "https://doi.org/10.1016/j.ejor.2021.12.043"
+
+  - authors: "Lu Xing, Tal Raviv, Lina Sela"
+    title:   "Sensor placement for robust burst identification in water systems: balancing modeling accuracy, parsimony, and uncertainties"
+    venue:   "Advanced Engineering Informatics"
+    year:    2022
+    pages:   "51, 101484"
+    url:     "https://doi.org/10.1016/j.aei.2021.101484"
+
+  - authors: "Edison Avraham, Tal Raviv"
+    title:   "The steady-state mobile personnel booking problem"
+    venue:   "Transportation Research Part B"
+    year:    2021
+    pages:   "154, 266-288"
+    url:     "/assets/pdf/f40624_080af93653c248279f8d273480314c73.pdf"
+    extras:
+      - { label: "dataset", url: "/assets/pdf/f40624_000eab2cc4bc4a1787ee0d034b65c117.zip" }
+
+  - authors: "Michal Penn, Tal Raviv"
+    title:   "Complexity and algorithms for min cost and max profit scheduling under time-of-use electricity tariffs"
+    venue:   "Journal of Scheduling"
+    year:    2021
+    pages:   "24(1), 83-102"
+    url:     "/assets/pdf/f40624_cc19e2b83fb244729768b6c1d9f52f04.pdf"
+
+  - authors: "Omer Dumbinsky, Joachim Mayer, Tal Raviv"
+    title:   "Alerting about possible risks vs. blocking risky choices: a quantitative model and its empirical evaluation"
+    venue:   "Computers & Security"
+    year:    2020
+    pages:   "101944"
+    url:     "https://doi.org/10.1016/j.cose.2020.101944"
+
+  - authors: "Yifat Douek-Pinkovich, Irad Ben-Gal, Tal Raviv"
+    title:   "The generalized test collection problem"
+    venue:   "TOP"
+    year:    2021
+    pages:   "372-386"
+    url:     "https://www.researchgate.net/publication/337676458_The_Generalized_Test_Collection_Problem"
+
+  - authors: "Yossi Bukchin, Tal Raviv, Ilya Zaides"
+    title:   "The consecutive multiprocessor job scheduling problem"
+    venue:   "European Journal of Operational Research"
+    year:    2020
+    pages:   "427-438"
+    url:     "/assets/pdf/f40624_4d606ffa38504d6d88eb8dc57448a532.pdf"
+
+  - authors: "Edison Avraham, Tal Raviv"
+    title:   "The data-driven time-dependent traveling salesperson problem"
+    venue:   "Transportation Research Part B"
+    year:    2020
+    pages:   "134, 25-40"
+    url:     "/assets/pdf/f40624_2f06a073407b4d3da579e1313a707f81.pdf"
+    extras:
+      - { label: "dataset", url: "/assets/pdf/f40624_58caecbaeca4410e8388718ea9d0476e.zip" }
+
+  - authors: "Ido Orenstein, Tal Raviv, Elad Sadan"
+    title:   "Delivery process with flexibility using automated parcel locker"
+    venue:   "EURO Journal of Transportation and Logistics"
+    year:    2019
+    pages:   "8, 683-711"
+    url:     "/assets/pdf/f40624_920398a93c1c4858b6c3d194379fa3eb.pdf"
+
+  - authors: "Sharon Datner, Tal Raviv, Michal Tzur, Daniel Chemla"
+    title:   "Setting inventory levels in a bike sharing network"
+    venue:   "Transportation Science"
+    year:    2019
+    pages:   "53, 62-76"
+    url:     "/assets/pdf/f40624_a04aa1131eb24b8fb49ca097f8cf894d.pdf"
+
+  - authors: "Yossi Bukchin, Tal Raviv"
+    title:   "Constraint programming for solving various assembly line balancing problems"
+    venue:   "OMEGA"
+    year:    2018
+    pages:   "78, 57-68"
+    url:     "/assets/pdf/f40624_ed691cb8d81c422888a459a1053b8552.pdf"
+
+  - authors: "Edison Avraham, Tal Raviv, E. Khmelnitsky"
+    title:   "The decentralized field service routing problem"
+    venue:   "Transportation Research Part B"
+    year:    2017
+    pages:   "104, 290-316"
+    url:     "/assets/pdf/f40624_82586f7924934529ad0dc72d347b8bd8.pdf"
+
+  - authors: "Mor Kaspi, Tal Raviv, Michal Tzur"
+    title:   "Bike sharing systems: user dissatisfaction in the presence of unusable bicycles"
+    venue:   "IISE Transactions"
+    year:    2017
+    pages:   "49:2, 144-158"
+    url:     "/assets/pdf/f40624_cfe3d88f51d14951b63343d50fdd592b.pdf"
+
+  - authors: "Zohar Postelnicu, Tal Raviv, Irad Ben-Gal"
+    title:   "Improving websites' quality of service by shortening their browsing expected path length"
+    venue:   "Quality and Reliability Engineering International"
+    year:    2016
+    pages:   "32, 2017-2031"
+
+  - authors: "Mor Kaspi, Tal Raviv, Michal Tzur, Hila Galili"
+    title:   "Regulating vehicle sharing systems through parking reservation policies: analysis and performance"
+    venue:   "European Journal of Operational Research"
+    year:    2016
+    pages:   "251:33, 969-987"
+    url:     "/assets/pdf/f40624_8a02dab416a2490c9605852e4eea8ca3.pdf"
+
+  - authors: "Mor Kaspi, Tal Raviv, Michal Tzur"
+    title:   "Detection of unusable bicycles in bike-sharing systems"
+    venue:   "Omega"
+    year:    2016
+    pages:   "65, 10-16"
+    url:     "/assets/pdf/f40624_6f0fe42822e54395addbb22a374ceac2.pdf"
+
+  - authors: "Iris Forma, Tal Raviv, Michal Tzur"
+    title:   "A 3-step math heuristic for the static repositioning problem in bike-sharing systems"
+    venue:   "Transportation Research Part B"
+    year:    2015
+    pages:   "71, 230-247"
+    url:     "/assets/pdf/f40624_a84caad0cc3044308675203f7f1af840.pdf"
+
+  - authors: "Nicole Adler, A. Shalom Hakkert, Tal Raviv, M. Sher"
+    title:   "The traffic police location and schedule assignment problem"
+    venue:   "Journal of Multi-Criteria Decision Analysis"
+    year:    2014
+    pages:   "21, 315-333"
+
+  - authors: "Mor Kaspi, Tal Raviv, Michal Tzur"
+    title:   "Parking reservation policies in one-way vehicle sharing systems"
+    venue:   "Transportation Research Part B: Methodological"
+    year:    2014
+    pages:   "62, 35-50"
+    url:     "/assets/pdf/f40624_2fab57ea187b4f08819cf8dc02028005.pdf"
+
+  - authors: "Michael Masin, Tal Raviv"
+    title:   "Linear programming-based algorithms for the minimum makespan high multiplicity jobshop problem"
+    venue:   "Journal of Scheduling"
+    year:    2014
+    pages:   "17:4, 321-338"
+    url:     "/assets/pdf/f40624_9e0712eaa5164b90876cbade9c6994cc.pdf"
+
+  - authors: "Tal Raviv, Michal Tzur, Iris Forma"
+    title:   "Static repositioning in a bike-sharing system: models and solution approaches"
+    venue:   "EURO Journal of Transportation and Logistics"
+    year:    2013
+    pages:   "2, 187-229"
+    url:     "/assets/pdf/f40624_600a598be94c41f685d50421e2a3d560.pdf"
+
+  - authors: "Tal Raviv, O. Kolka"
+    title:   "Optimal inventory management of a bike-sharing station"
+    venue:   "IIE Transactions"
+    year:    2013
+    pages:   "45:10, 1077-1093"
+    url:     "/assets/pdf/f40624_595dfa68a3954cef86f581f251b3ac47.pdf"
+
+  - authors: "Tal Raviv"
+    title:   "An efficient algorithm for maximizing the expected profit from a serial production line with inspection stations and rework"
+    venue:   "OR-Spectrum"
+    year:    2013
+    pages:   "35:3, 609-638"
+    url:     "/assets/pdf/f40624_2427d3f18a8e423d809af026a7d50ba8.pdf"
+
+  - authors: "Mor Kaspi, Tal Raviv"
+    title:   "Service-oriented line planning and timetabling for passenger trains"
+    venue:   "Transportation Science"
+    year:    2013
+    pages:   "47:3, 295-311"
+    url:     "/assets/pdf/f40624_817f1fbd9dd84d75a42633f338854dee.pdf"
+
+  - authors: "Tal Raviv"
+    title:   "The battery switching station scheduling problem"
+    venue:   "Operations Research Letters"
+    year:    2012
+    pages:   "40:6, 546-550"
+    url:     "/assets/pdf/f40624_acdc988089914a3b91588e2127269d6d.pdf"
+
+  - authors: "Tal Raviv, Mor Kaspi"
+    title:   "The locomotive fleet fueling problem"
+    venue:   "Operations Research Letters"
+    year:    2012
+    pages:   "40:1, 39-45"
+    url:     "/assets/pdf/f40624_e5cb586f17d147ccbaa5d062e103d2cf.pdf"
+
+  - authors: "D. Granot, F. Granot, Tal Raviv"
+    title:   "On competitive location in a network"
+    venue:   "European Journal of Operational Research"
+    year:    2010
+    pages:   "205, 301-312"
+    url:     "https://doi.org/10.1016/j.ejor.2009.12.021"
+
+  - authors: "W. D. Cook, Tal Raviv, A. J. Richardson"
+    title:   "Aggregating incomplete lists of journal rankings: an application to academic accounting journals"
+    venue:   "Accounting Perspectives"
+    year:    2010
+    pages:   "9:3, 217-235"
+    url:     "/assets/pdf/f40624_d31bc6626518434aa4fb5094bbdbba06.doc"
+
+  - authors: "M. Penn, Tal Raviv"
+    title:   "An algorithm for the maximum revenue jobshop problem"
+    venue:   "European Journal of Operational Research"
+    year:    2009
+    pages:   "193, 437-450"
+    url:     "/assets/pdf/f40624_78a55c967343414da41bbe2ea93287f6.pdf"
+
+  - authors: "M. Penn, Tal Raviv"
+    title:   "A polynomial time algorithm for solving a quality control station configuration problem"
+    venue:   "Discrete Applied Mathematics"
+    year:    2008
+    pages:   "156, 412-419"
+    url:     "/assets/pdf/f40624_dd7307ba3495472ab32286f54f6db9da.pdf"
+
+  - authors: "M. Penn, Tal Raviv"
+    title:   "Optimizing the quality control station configuration"
+    venue:   "Naval Research Logistics"
+    year:    2007
+    pages:   "54, 301-314"
+    url:     "/assets/pdf/f40624_617443ce3d1142f38a48bbae8bf7d118.pdf"
+
+  - authors: "W. D. Cook, B. Golany, M. Penn, Tal Raviv"
+    title:   "Creating a consensus ranking of proposals from reviewers' partial ordinal rankings"
+    venue:   "Computers & Operations Research"
+    year:    2006
+    pages:   "34:4"
+    url:     "/assets/pdf/f40624_83f6ef9ecefb4fd6a5a758589cc82ae4.pdf"
+
+  - authors: "G. Allon, D. P. Kroese, Tal Raviv, R. Y. Rubinstein"
+    title:   "Application of the cross-entropy method to the buffer allocation problem in a simulation-based environment"
+    venue:   "Annals of Operations Research"
+    year:    2005
+    pages:   "134, 137-151"
+    url:     "/assets/pdf/f40624_b37f27167a0b4807a6dc59f88d3c2805.pdf"
+
+  - authors: "W. D. Cook, B. Golany, M. Kress, M. Penn, Tal Raviv"
+    title:   "Optimal allocation of proposals to reviewers to facilitate effective ranking"
+    venue:   "Management Science"
+    year:    2005
+    pages:   "51:4, 655-661"
+    url:     "/assets/pdf/f40624_5379753a45ea438aa4d196e4867f04ed.pdf"
+
+chapters:
+
+  - authors: "Tal Raviv, Margaretha Gansterer"
+    title:   "Location, capacity, and layout problems of automated parcel lockers"
+    venue:   "Encyclopedia in Operations Management, vol. 2"
+    year:    2026
+    pages:   "386-393"
+    url:     "https://www.sciencedirect.com/science/chapter/referencework/abs/pii/B9780443289934000925"
+    extras:
+      - { label: "preprint", url: "/assets/pdf/f40624_4e176d0c0a704e408015be67ff0d569d.pdf" }
+
+working:
+
+  - authors: "Tal Raviv"
+    title:   "The lecture-hall quadratic assignment problem"
+    date:    "April 2026"
+    url:     "/assets/pdf/f40624_aaf7fa376a8c4b1796e312e00a195418.pdf"
+    extras:
+      - { label: "GitHub repo", url: "https://github.com/tal69/lecture-halls" }
+
+  - authors: "Tal Raviv, Yossi Bukchin"
+    title:   "Escort-flow approach for the puzzle-based storage multi-load retrieval in static and dynamic environments"
+    date:    "October 2025"
+    url:     "https://dx.doi.org/10.2139/ssrn.5397103"
+
+  - authors: "Shachar Eizen, Michal Tzur, Tal Raviv"
+    title:   "Dynamic parcel routing with endogenous service times in a hyper-connected network"
+    date:    "July 2024"
+    url:     "https://dx.doi.org/10.2139/ssrn.4903075"
+
+  - authors: "Eyal Tenzer, Tal Raviv"
+    title:   "Crowd-shipping of small parcels in a physical internet"
+    date:    "July 2018"
+    url:     "/assets/pdf/f40624_3911a86e148a4d09bb05e07c1c5e24ff.pdf"

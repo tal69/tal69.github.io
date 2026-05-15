@@ -1,0 +1,155 @@
+# -----------------------------------------------------------------------------
+# Students. Edit / add entries here. Fields:
+#   name          — student's name
+#   profile       — URL to LinkedIn, Scholar, etc.
+#   degree        — "MSc" or "PhD"
+#   status        — "Graduated May 2010", "Started Oct. 2025", etc.
+#   coadvisor     — co-advisor name (omit if none)
+#   thesis_title  — thesis title (omit for current students)
+#   thesis_url    — PDF link (omit if not available)
+# -----------------------------------------------------------------------------
+
+# --- Current students --------------------------------------------------------
+
+- name: "Mr. Dor Bar"
+  profile: "https://www.linkedin.com/in/dor-bar-359124209/"
+  degree: "PhD"
+  coadvisor: "Prof. Noam Koenigstein"
+  status: "started January 2026"
+
+- name: "Ms. Tal Rubinstein"
+  profile: "https://www.linkedin.com/in/talrubinstein/"
+  degree: "MSc"
+  status: "started Oct. 2025"
+
+- name: "Mr. Tal Eylon"
+  profile: "https://www.linkedin.com/in/taleylon/"
+  degree: "MSc"
+  status: "started Oct. 2025"
+
+- name: "Mr. Ami Shafir"
+  profile: "https://www.linkedin.com/in/ami-shafir-6ba54645/"
+  degree: "MSc"
+  status: "started June 2024"
+
+- name: "Mr. Ilan Estrugo"
+  profile: "https://www.linkedin.com/in/ilan-estrugo-8756721/"
+  degree: "PhD"
+  coadvisor: "Prof. Yossi Bukchin"
+  status: "started Feb. 2022"
+
+- name: "Mr. Gabriel Deza"
+  profile: "https://scholar.google.com/citations?user=o7zbCEsAAAAJ&hl=en"
+  degree: "PhD"
+  coadvisor: "Prof. Michal Tzur"
+  status: "started Nov. 2022"
+
+# --- Graduated --------------------------------------------------------------
+
+- name: "Mr. Elad Sadan"
+  profile: "https://www.linkedin.com/in/elad-sadan-445448b1/"
+  degree: "MSc"
+  status: "graduated June 2025"
+
+- name: "Ms. Shachar Eizen"
+  profile: "https://www.linkedin.com/in/shachar-eizen/"
+  degree: "MSc"
+  coadvisor: "Prof. Michal Tzur"
+  status: "graduated June 2024"
+
+- name: "Dr. Edison Avraham"
+  profile: "http://il.linkedin.com/pub/edison-avraham/a8/328/602"
+  degree: "PhD"
+  status: "graduated April 2023"
+
+- name: "Ms. Shir Tavor"
+  profile: "https://www.linkedin.com/in/shir-tavor/"
+  degree: "MSc"
+  status: "graduated Feb. 2022"
+
+- name: "Dr. Yifat Douek-Pinkovich"
+  degree: "PhD"
+  coadvisor: "Prof. Irad Ben-Gal"
+  status: "graduated 2021"
+
+- name: "Dr. Ido Orenstein"
+  degree: "PhD"
+  status: "graduated Sep. 2020"
+
+- name: "Mr. Eyal Tenzer"
+  profile: "https://www.linkedin.com/in/eyal-tenzer-25148a87/"
+  degree: "MSc"
+  status: "graduated Nov. 2018"
+  thesis_title: "Crowd-shipping of small parcels in a physical internet"
+  thesis_url: "http://www.eng.tau.ac.il/~talraviv/Students/Eyal%20Tenzer-thesis.pdf"
+
+- name: "Dr. Mor Kaspi"
+  profile: "http://www.eng.tau.ac.il/~morkaspi/"
+  degree: "PhD"
+  coadvisor: "Prof. Michal Tzur"
+  status: "graduated May 2016"
+
+- name: "Dr. Iris Forma"
+  profile: "https://scholar.google.com/citations?user=TPJkFD8AAAAJ&hl=en"
+  degree: "PhD"
+  coadvisor: "Prof. Michal Tzur"
+  status: "graduated November 2016"
+
+- name: "Mr. Yuval Elbar"
+  degree: "MSc"
+  status: "graduated March 2016"
+  thesis_title: "Mixed fleet VSP"
+  thesis_url: "http://www.eng.tau.ac.il/~talraviv/Students/Yuval%20Elbar%20-%20mixed%20fleet%20VSP%20MSc%20thesis%20work.pdf"
+
+- name: "Ms. Sharon Datner"
+  profile: "https://www.linkedin.com/in/sharondatner"
+  degree: "MSc"
+  coadvisor: "Prof. Michal Tzur"
+  status: "graduated February 2016"
+  thesis_title: "Setting inventory levels in a bike sharing network"
+
+- name: "Mr. Edison Avraham"
+  profile: "http://il.linkedin.com/pub/edison-avraham/a8/328/602"
+  degree: "MSc"
+  coadvisor: "Prof. Eugene Khmelnitsky"
+  status: "graduated October 2014"
+  thesis_title: "The decentralized field service routing problem"
+  thesis_url: "http://www.eng.tau.ac.il/~talraviv/Students/Edison%20MSc%20Thesis.pdf"
+
+- name: "Ms. Dana Pesach"
+  profile: "https://www.linkedin.com/in/danapessach"
+  degree: "MSc"
+  coadvisor: "Prof. Michal Tzur"
+  status: "graduated February 2014"
+  thesis_title: "Dynamic repositioning in bike-sharing systems (Hebrew)"
+  thesis_url: "http://www.eng.tau.ac.il/~talraviv/Students/Dana%20Thesis.pdf"
+
+- name: "Mr. Gil Einy"
+  profile: "https://www.linkedin.com/pub/gil-einy/32/596/b42"
+  degree: "MSc"
+  status: "graduated January 2014"
+  thesis_title: "Optimal control of battery stations"
+
+- name: "Mr. Zohar Postelnicu"
+  degree: "MSc"
+  coadvisor: "Prof. Irad Ben-Gal"
+  status: "graduated May 2013"
+
+- name: "Mr. Ofer Kolka"
+  profile: "https://www.linkedin.com/pub/ofer-kolka/10/165/251"
+  degree: "MSc"
+  status: "graduated January 2012"
+  thesis_title: "Management of stock levels in a bike-sharing system"
+  thesis_url: "http://www.eng.tau.ac.il/~talraviv/Students/Thesis%20-%20Ofer%20Kolka.pdf"
+
+- name: "Dr. Mor Kaspi"
+  profile: "http://www.eng.tau.ac.il/~morkaspi/"
+  degree: "MSc"
+  status: "graduated July 2010"
+  thesis_title: "Service-oriented train timetabling"
+
+- name: "Ms. Shikma Aharonov"
+  degree: "MSc"
+  coadvisor: "Prof. Yossi Bukchin"
+  status: "graduated May 2010"
+  thesis_title: "Integrated assembly line balancing and inspection allocation problem in an online rework environment"

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}"
+             class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="contact">
+        <strong>{{ site.author.name }}</strong><br>
+        <a href="https://engineering.tau.ac.il/Department-of-Industrial-Engineering">Department of Industrial Engineering</a>,
+        <a href="http://www.tau.ac.il/">Tel Aviv University</a><br>
+        {{ site.author.address }}<br>
+        Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+        Phone: {{ site.author.phone }} &nbsp;·&nbsp; Fax: {{ site.author.fax }}
+      </div>
+      <div class="social">
+        <a href="{{ site.social.scholar }}" rel="noopener" target="_blank">Google Scholar</a>
+        <a href="{{ site.social.researchgate }}" rel="noopener" target="_blank">ResearchGate</a>
+        <a href="{{ site.social.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="{{ site.social.github }}" rel="noopener" target="_blank">GitHub</a>
+        <a href="{{ site.social.youtube }}" rel="noopener" target="_blank">YouTube</a>
+      </div>
+      <div class="copyright">&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}. Built with Jekyll &amp; hosted on GitHub Pages.</div>
+    </div>
+  </footer>
+</body>
+</html>

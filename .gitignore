@@ -1,0 +1,19 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Ruby / Bundler
+.bundle/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Backups created by mirror_assets.py
+_data/*.bak
+_data/*.yml.bak

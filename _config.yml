@@ -1,0 +1,66 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title:              Prof. Tal Raviv
+description:        >-
+  Personal homepage of Prof. Tal Raviv — Industrial & Intelligent Systems
+  Engineering, Tel Aviv University. Operations research, transportation,
+  logistics, warehousing.
+url:                "https://tal69.github.io"     # change after you pick a repo name
+baseurl:            ""                            # e.g. "/homepage" if not a *.github.io root site
+
+# -----------------------------------------------------------------------------
+# Author
+# -----------------------------------------------------------------------------
+
+author:
+  name:             Tal Raviv
+  position:         "Full Professor"
+  affiliation:      "School of Industrial & Intelligent Systems Engineering, Tel Aviv University"
+  email:            talraviv@tau.ac.il
+  phone:            "+972-3-640-6977"
+  fax:              "+972-3-640-7669"
+  address:          "Tel Aviv 6997801, ISRAEL"
+  photo:            /assets/img/profile.jpg
+
+# Social / academic profiles
+social:
+  scholar:          "https://scholar.google.co.il/citations?user=HxjIov0AAAAJ"
+  researchgate:     "https://www.researchgate.net/profile/Tal-Raviv"
+  linkedin:         "https://www.linkedin.com/in/tal-raviv-b48566/"
+  github:           "https://github.com/tal69/"
+  youtube:          "https://www.youtube.com/@TalRaviv69"
+
+# -----------------------------------------------------------------------------
+# Navigation
+# -----------------------------------------------------------------------------
+
+nav:
+  - { name: "Home",          url: "/" }
+  - { name: "Publications",  url: "/publications/" }
+  - { name: "Students",      url: "/students/" }
+  - { name: "Events",        url: "/events/" }
+
+# -----------------------------------------------------------------------------
+# Build
+# -----------------------------------------------------------------------------
+
+markdown:           kramdown
+highlighter:        rouge
+permalink:          pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - .sass-cache

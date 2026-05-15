@@ -20,6 +20,7 @@
              class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
         {% endfor %}
       </nav>
+      {% include social-icons.html %}
     </div>
   </header>
 
@@ -37,13 +38,7 @@
         Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
         Phone: {{ site.author.phone }} &nbsp;·&nbsp; Fax: {{ site.author.fax }}
       </div>
-      <div class="social">
-        <a href="{{ site.social.scholar }}" rel="noopener" target="_blank">Google Scholar</a>
-        <a href="{{ site.social.researchgate }}" rel="noopener" target="_blank">ResearchGate</a>
-        <a href="{{ site.social.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>
-        <a href="{{ site.social.github }}" rel="noopener" target="_blank">GitHub</a>
-        <a href="{{ site.social.youtube }}" rel="noopener" target="_blank">YouTube</a>
-      </div>
+      {% include social-icons.html %}
       <div class="copyright">&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}. Built with Jekyll &amp; hosted on GitHub Pages.</div>
     </div>
   </footer>

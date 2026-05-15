@@ -7,8 +7,8 @@ description:        >-
   Personal homepage of Prof. Tal Raviv — Industrial & Intelligent Systems
   Engineering, Tel Aviv University. Operations research, transportation,
   logistics, warehousing.
-url:                "https://tal69.github.io"     # change after you pick a repo name
-baseurl:            ""                            # e.g. "/homepage" if not a *.github.io root site
+url:                "https://tal69.github.io"
+baseurl:            "/homepage"                   # project page — change if your repo isn't named "homepage"
 
 # -----------------------------------------------------------------------------
 # Author

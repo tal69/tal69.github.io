@@ -8,7 +8,7 @@ description:        >-
   Engineering, Tel Aviv University. Operations research, transportation,
   logistics, warehousing.
 url:                "https://tal69.github.io"
-baseurl:            "/homepage"                   # project page — change if your repo isn't named "homepage"
+baseurl:            ""                   # project page — change if your repo isn't named "homepage"
 
 # -----------------------------------------------------------------------------
 # Author

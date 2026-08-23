@@ -4,9 +4,11 @@ permalink: /publications/
 title: Publications
 ---
 
+{% assign journal_papers = site.data.publications.journal | sort: "year" %}
+{% assign book_chapters = site.data.publications.chapters | sort: "year" %}
+
 ## Papers in peer-reviewed journals
 
-{%- assign journal_papers = site.data.publications.journal | sort: "year" -%}
 <ol class="pubs">
 {%- for p in journal_papers -%}
   <li>
@@ -25,7 +27,6 @@ title: Publications
 ## Book chapters
 
 <ol class="pubs">
-{%- assign book_chapters = site.data.publications.chapters | sort: "year" -%}
 {%- for p in book_chapters -%}
   <li>
     <span class="authors">{{ p.authors }}</span>,

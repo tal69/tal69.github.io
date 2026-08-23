@@ -6,8 +6,9 @@ title: Publications
 
 ## Papers in peer-reviewed journals
 
-<ol class="pubs" reversed>
-{%- for p in site.data.publications.journal -%}
+{%- assign journal_papers = site.data.publications.journal | sort: "year" -%}
+<ol class="pubs">
+{%- for p in journal_papers -%}
   <li>
     <span class="authors">{{ p.authors }}</span>,
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”,
@@ -24,7 +25,8 @@ title: Publications
 ## Book chapters
 
 <ol class="pubs">
-{%- for p in site.data.publications.chapters -%}
+{%- assign book_chapters = site.data.publications.chapters | sort: "year" -%}
+{%- for p in book_chapters -%}
   <li>
     <span class="authors">{{ p.authors }}</span>,
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”,
@@ -41,7 +43,7 @@ title: Publications
 ## Working papers
 
 <ol class="pubs">
-{%- for p in site.data.publications.working -%}
+{%- for p in site.data.publications.working reversed -%}
   <li>
     <span class="authors">{{ p.authors }}</span>,
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”{% if p.date %}, {{ p.date }}{% endif %}.

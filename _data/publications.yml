@@ -13,6 +13,15 @@
 
 journal:
 
+  - authors: "Tal Raviv"
+    title:   "The lecture-hall quadratic assignment problem"
+    venue:   "Computers & Operations Research"
+    year:    2026
+    pages:   "accepted for publication"
+    url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6678907"
+    extras:
+      - { label: "GitHub repo", url: "https://github.com/tal69/lecture-halls" }
+
   - authors: "Ilan Estrugo, Yossi Bukchin, Tal Raviv"
     title:   "DynoPath: a dynamic online grid-based centralized sorting algorithm"
     venue:   "Transportation Science"
@@ -342,13 +351,6 @@ chapters:
       - { label: "preprint", url: "/assets/pdf/f40624_4e176d0c0a704e408015be67ff0d569d.pdf" }
 
 working:
-
-  - authors: "Tal Raviv"
-    title:   "The lecture-hall quadratic assignment problem"
-    date:    "April 2026"
-    url:     "/assets/pdf/f40624_aaf7fa376a8c4b1796e312e00a195418.pdf"
-    extras:
-      - { label: "GitHub repo", url: "https://github.com/tal69/lecture-halls" }
 
   - authors: "Tal Raviv, Yossi Bukchin"
     title:   "Escort-flow approach for the puzzle-based storage multi-load retrieval in static and dynamic environments"

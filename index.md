@@ -27,9 +27,10 @@ description: Researcher in operations research, transportation, and logistics at
     logistics group at TAU (with Prof. Michal Tzur).</p>
 
     <p>I hold a B.A. from the Eitan Berglas School of Economics, Tel Aviv
-    University (1993), an M.B.A. from the Recanati School of Business, Tel
-    Aviv University (1997), and a Ph.D. in Operations Research from the
-    William Davidson Faculty of Industrial Engineering and Management,
+    University (1993), an M.B.A. from the Leon Recanati Graduate School of
+    Business Administration, Tel Aviv University (1997), and a Ph.D. in
+    Operations Research from the William Davidson Faculty of Industrial
+    Engineering and Management,
     Technion – Israel Institute of Technology, Haifa (2003). I spent two
     years (2004–2006) as a postdoctoral fellow at the Sauder School of
     Business, University of British Columbia, Vancouver, Canada.</p>

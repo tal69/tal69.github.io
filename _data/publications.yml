@@ -17,8 +17,8 @@ journal:
     title:   "DynoPath: a dynamic online grid-based centralized sorting algorithm"
     venue:   "Transportation Science"
     year:    2026
-    pages:   "(accepted Feb 2026)"
-    url:     "https://pubsonline.informs.org/doi/abs/10.1287/trsc.2025.0033"
+    pages:   "60(4), 545-562"
+    url:     "https://doi.org/10.1287/trsc.2025.0033"
     featured: true
     extras:
       - { label: "preprint", url: "https://dx.doi.org/10.2139/ssrn.5082142" }
@@ -32,11 +32,12 @@ journal:
     extras:
       - { label: "GitHub repo", url: "https://github.com/tal69/lecture-halls" }
 
-  - authors: "Oksana Sabinik Pecherski, Tal Raviv, Hilel Bar-Gera"
+  - authors: "Oksana Sabinik Pecherski, Tal Raviv, Hillel Bar-Gera"
     title:   "Service design of shared first- and last-mile transit systems"
     venue:   "Public Transport"
-    year:    2025
-    url:     "https://link.springer.com/article/10.1007/s12469-025-00404-y"
+    year:    2026
+    pages:   "18(2), 483-523"
+    url:     "https://doi.org/10.1007/s12469-025-00404-y"
 
   - authors: "Alaa Ghanaiem, Evgeny Kagan, Parteek Kumar, Tal Raviv, Peter Glynn, Irad Ben-Gal"
     title:   "Unsupervised classification under uncertainty: the distance-based algorithm"

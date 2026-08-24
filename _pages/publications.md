@@ -4,14 +4,14 @@ permalink: /publications/
 title: Publications
 ---
 
-{% assign journal_papers = site.data.publications.journal | sort: "year" %}
+{% assign journal_papers = site.data.publications.journal | sort: "cv_number" %}
 {% assign book_chapters = site.data.publications.chapters | sort: "year" %}
 
 ## Papers in peer-reviewed journals
 
-<ol class="pubs">
+<ol class="pubs cv-numbered">
 {%- for p in journal_papers -%}
-  <li>
+  <li data-cv-number="{{ p.cv_number }}">
     <span class="authors">{{ p.authors }}</span>,
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”,
     <span class="venue">{{ p.venue }}</span>{% if p.year %} ({{ p.year }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}.

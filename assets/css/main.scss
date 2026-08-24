@@ -90,6 +90,7 @@ a:hover { text-decoration: underline; }
   width: 2.1rem; text-align: right;
   color: var(--fg-muted); font-variant-numeric: tabular-nums;
 }
+.pubs.cv-numbered li::before { content: attr(data-cv-number) "."; }
 .pubs .authors { }
 .pubs .title { font-weight: 500; }
 .pubs .venue { color: var(--fg-muted); font-style: italic; }

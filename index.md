@@ -18,7 +18,7 @@ description: Researcher in operations research, transportation, and logistics at
 
     <p>My main research interests are shared mobility systems, small-parcel
     delivery logistics, public transit planning, warehousing, and traffic
-    management. I have published about 45 papers in the operations research
+    management. I have published more than 45 papers in the operations research
     literature and have advised several start-up companies.</p>
 
     <p>I am a Full Professor in the School of Industrial &amp; Intelligent

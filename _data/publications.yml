@@ -43,7 +43,7 @@ journal:
     venue:   "Mathematics"
     year:    2023
     pages:   "11, 4784"
-    url:     "https://www.mdpi.com/2577452"
+    url:     "https://doi.org/10.3390/math11234784"
 
   - authors: "Tal Raviv"
     title:   "The service points' location and capacity problem"
@@ -240,6 +240,13 @@ journal:
     year:    2014
     pages:   "17:4, 321-338"
     url:     "/assets/pdf/f40624_9e0712eaa5164b90876cbade9c6994cc.pdf"
+
+  - authors: "Nicole Adler, A. Shalom Hakkert, Jonathan Kornbluth, Tal Raviv, Mali Sher"
+    title:   "Location-allocation models for traffic police patrol vehicles on an interurban network"
+    venue:   "Annals of Operations Research"
+    year:    2014
+    pages:   "221(1), 9-31"
+    url:     "https://doi.org/10.1007/s10479-012-1275-2"
 
   - authors: "Tal Raviv, Michal Tzur, Iris Forma"
     title:   "Static repositioning in a bike-sharing system: models and solution approaches"

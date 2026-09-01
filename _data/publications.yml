@@ -19,8 +19,8 @@ journal:
     title:   "The lecture-hall quadratic assignment problem"
     venue:   "Computers & Operations Research"
     year:    2026
-    pages:   "accepted for publication, August 2026"
-    url:     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6678907"
+    pages:   "available online, 107659"
+    url:     "https://doi.org/10.1016/j.cor.2026.107659"
     featured: true
     extras:
       - { label: "GitHub repo", url: "https://github.com/tal69/lecture-halls" }

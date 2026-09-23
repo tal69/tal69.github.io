@@ -2,7 +2,7 @@
   Inline-SVG social icons in brand colors. Sizes / colors are controlled in
   assets/css/main.scss under `.social-icons`.
 {%- endcomment -%}
-<div class="social-icons">
+<div class="social-icons{% if include.variant %} social-icons--{{ include.variant }}{% endif %}">
   <a class="ic ic-scholar" href="{{ site.social.scholar }}" title="Google Scholar" aria-label="Google Scholar" rel="noopener" target="_blank">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 100 14 7 7 0 000-14z"/></svg>
   </a>

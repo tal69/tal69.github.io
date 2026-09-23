@@ -12,15 +12,44 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
+    <div class="header-wrap header-top">
+      <details class="mobile-menu">
+        <summary aria-label="Open navigation menu">
+          <span class="mobile-menu-icon" aria-hidden="true"></span>
+        </summary>
+        <nav class="mobile-nav" aria-label="Mobile navigation">
+          {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}"
+               class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+          {% endfor %}
+        </nav>
+      </details>
+
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        {% for item in site.nav %}
-          <a href="{{ item.url | relative_url }}"
-             class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
-      {% include social-icons.html %}
+
+      <a class="tau-logo" href="{{ site.branding.tau_url }}" target="_blank" rel="noopener"
+         aria-label="Tel Aviv University">
+        <img src="{{ site.branding.tau_logo | relative_url }}"
+             alt="Tel Aviv University" width="1505" height="823">
+      </a>
+    </div>
+
+    <div class="header-bar">
+      <div class="header-wrap header-bar-inner">
+        <nav class="site-nav site-nav--desktop" aria-label="Primary navigation">
+          {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}"
+               class="{% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+          {% endfor %}
+        </nav>
+
+        <div class="header-actions">
+          {% include social-icons.html variant="header" %}
+          <a class="tau-profile-link" href="{{ site.author.profile_url }}"
+             target="_blank" rel="noopener" lang="he"
+             aria-label="Faculty profile in Hebrew">עב</a>
+        </div>
+      </div>
     </div>
   </header>
 

@@ -61,6 +61,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - handoff.md
   - vendor
   - node_modules
   - .sass-cache

@@ -13,7 +13,6 @@ description: Researcher in operations research, transportation, and logistics at
     </p>
   </div>
   <div>
-    <h1>Prof. Tal Raviv</h1>
     <p class="subtitle">Researcher in operations research, transportation &amp; logistics</p>
 
     <p>My main research interests are shared mobility systems, small-parcel

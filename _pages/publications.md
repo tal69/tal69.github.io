@@ -14,7 +14,7 @@ title: Publications
   <li data-cv-number="{{ p.cv_number }}">
     <span class="authors">{{ p.authors }}</span>,
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”,
-    <span class="venue">{{ p.venue }}</span>{% if p.year %} ({{ p.year }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}.
+    <span class="venue">{{ p.venue }}</span>{% if p.year %} ({{ p.year }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.status %}, {{ p.status }}{% endif %}.
     {%- if p.extras -%}
       <span class="extras">
         {%- for e in p.extras -%} <a href="{{ e.url }}">{{ e.label }}</a>{%- endfor -%}

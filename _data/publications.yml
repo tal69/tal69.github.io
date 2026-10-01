@@ -7,6 +7,7 @@
 #   venue    — journal name
 #   year     — publication year (integer)
 #   pages    — volume/issue/pages string, e.g. "166 (2022) 348-373"
+#   status   — acceptance status when volume and pages are not yet available
 #   url      — link to PDF or DOI (preferred)
 #   featured — set true for the items shown on the Home page
 #   extras   — list of {label, url} for datasets, preprints, code, etc.

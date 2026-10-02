@@ -327,7 +327,7 @@ a:hover { text-decoration: underline; }
     border-top: 1px solid var(--header-rule);
     border-bottom: 1px solid var(--header-rule);
     background: #fff;
-    box-shadow: 0 10px 24px rgb(0 0 0 / 12%);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   }
   .mobile-nav a {
     width: min(220px, 100%);

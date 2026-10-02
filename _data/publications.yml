@@ -21,6 +21,7 @@ journal:
     venue:   "Transportation Science"
     year:    2026
     status:  "accepted for publication"
+    url:     "https://arxiv.org/abs/2610.01666"
 
   - cv_number: 46
     authors: "Tal Raviv"

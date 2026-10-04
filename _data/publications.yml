@@ -435,3 +435,8 @@ working:
     title:   "Crowd-shipping of small parcels in a physical internet"
     date:    "July 2018"
     url:     "/assets/pdf/f40624_3911a86e148a4d09bb05e07c1c5e24ff.pdf"
+
+  - authors: "Tal Raviv"
+    title:   "A note on the NP Hardness of the maximum profit concurrent open shop problem"
+    date:    "March 2014"
+    url:     "/assets/pdf/tal-raviv-np-hardness-concurrent-open-shop.pdf"

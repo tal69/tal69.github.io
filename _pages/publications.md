@@ -16,7 +16,7 @@ title: Publications
     “<span class="title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>”,
     <span class="venue">{{ p.venue }}</span>{% if p.year %} ({{ p.year }}){% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.status %}, {{ p.status }}{% endif %}.
     {%- if p.extras -%}
-      <span class="extras">
+      <span class="extras">&nbsp;
         {%- for e in p.extras -%} <a href="{{ e.url }}">{{ e.label }}</a>{%- endfor -%}
       </span>
     {%- endif -%}

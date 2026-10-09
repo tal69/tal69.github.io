@@ -259,6 +259,8 @@ journal:
     year:    2015
     pages:   "71, 230-247"
     url:     "/assets/pdf/f40624_a84caad0cc3044308675203f7f1af840.pdf"
+    extras:
+      - { label: "dataset", url: "/assets/data/3step-data.zip" }
 
   - cv_number: 18
     authors: "Nicole Adler, A. Shalom Hakkert, Tal Raviv, M. Sher"

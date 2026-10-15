@@ -22,6 +22,7 @@ journal:
     year:    2026
     status:  "accepted for publication"
     url:     "https://arxiv.org/abs/2610.01666"
+    featured: true
 
   - cv_number: 46
     authors: "Tal Raviv"
@@ -87,7 +88,6 @@ journal:
     year:    2023
     pages:   "153, 104196"
     url:     "https://doi.org/10.1016/j.trc.2023.104196"
-    featured: true
 
   - cv_number: 39
     authors: "Yossi Bukchin, Tal Raviv"

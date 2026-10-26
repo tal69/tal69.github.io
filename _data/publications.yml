@@ -70,6 +70,8 @@ journal:
     pages:   "176, 103216"
     url:     "https://doi.org/10.1016/j.tre.2023.103216"
     featured: true
+    extras:
+      - { label: "dataset (ZIP)", url: "/assets/data/service-points-case-study.zip" }
 
   - cv_number: 41
     authors: "Edison Avraham, Tal Raviv"

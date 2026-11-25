@@ -421,8 +421,8 @@ chapters:
 working:
 
   - authors: "Tal Raviv, Yossi Bukchin"
-    title:   "Escort-flow approach for the puzzle-based storage multi-load retrieval in static and dynamic environments"
-    date:    "July 2026"
+    title:   "Escort-Flow Approach for Simultaneous Multi-Load Retrieval in Puzzle-Based Storage"
+    date:    "November 2026"
     url:     "https://dx.doi.org/10.2139/ssrn.5397103"
 
   - authors: "Carlos Aníbal Suárez, Antoine Deza, Tal Raviv"
